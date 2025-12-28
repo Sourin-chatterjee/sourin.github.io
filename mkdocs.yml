@@ -1,0 +1,34 @@
+site_name: Sourin Chatterjee
+site_description: Ph.D. (Physics), IIT Madras — Quantum magnetism & computational physics
+site_url: https://sourin-chatterjee.github.io/
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: white
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Biosketch: bio.md
+  - Education: education.md
+  - Projects: projects.md
+  - Skills: skills.md
+  - Activities: activities.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.superfences
+
