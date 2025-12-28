@@ -28,16 +28,16 @@
       margin: 56px auto;
       padding: 0 20px;
     }
-    header{
-      display:flex;
-      flex-wrap:wrap;
-      gap:16px;
-      align-items:center;
-      justify-content:space-between;
-      padding-bottom:18px;
-      border-bottom:1px solid var(--line);
-      margin-bottom:18px;
-    }
+   header{
+  display:flex;
+  gap:24px;
+  align-items:center;
+  justify-content:space-between;
+  padding-bottom:18px;
+  border-bottom:1px solid var(--line);
+  margin-bottom:32px; /* ensures content stays lower */
+}
+
     .title h1{
       margin:0;
       font-size:2.15rem;
@@ -151,25 +151,24 @@
 .profile{
   display:flex;
   gap:20px;
-  align-items:flex-start;
-  flex:1;
-  min-width:300px;
+  align-items:center;
 }
 
-/* Rectangular profile photo */
+/* Rectangular image */
 .profile img{
   width:140px;
   height:180px;
   object-fit:cover;
-  border-radius:6px;
   border:1px solid var(--line);
+  border-radius:6px;
   background:#fff;
 }
 
-/* Keep name on one line */
+/* Keep name in one line */
 .title h1{
   white-space:nowrap;
 }
+
 
 /* Align nav properly */
 nav{
