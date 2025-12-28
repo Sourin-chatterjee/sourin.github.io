@@ -22,5 +22,5 @@
 
 
 ## Awards
-- ANRF International Travel Support (ICTP Trieste, 2025)
+- ANRF International Travel Support ( for ICTP Trieste, 2025)
 - Qualified JEST-2019, GATE-2019
